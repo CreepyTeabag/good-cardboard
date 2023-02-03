@@ -1,0 +1,49 @@
+.contacts
+   position: relative
+   &-block
+      position: absolute
+      top: 10%
+      left: 10%
+      background-color: #fff
+      padding-top: 33px
+      // padding-bottom: 39px
+      padding-left: 62px
+      padding-right: 34px
+      &__title
+         display: block
+         font-size: 18px
+         font-weight: 700
+         margin-top: 8px
+         margin-bottom: 8px
+         &::before
+            content: ''
+            display: inline-block
+            margin-left: -35px
+            margin-right: 10px
+            padding-top: 15px
+            width: 22px
+         &-office
+            &::before
+               height: 27px
+               margin-bottom: -10px
+               background: url(../img/contacts/map-marker.png) center center no-repeat
+         &-warehouse
+            &::before
+               display: none
+         &-sales
+            &::before
+               height: 27px
+               margin-bottom: -10px
+               background: url(../img/contacts/mobile-phone.png) center center no-repeat
+         &-email
+            &::before
+               background: url(../img/contacts/envelope.png) center center no-repeat
+      &__text
+         margin-bottom: 30px
+   .section-title
+         display: none
+.map
+   width: 100%
+   height: 550px
+
+      

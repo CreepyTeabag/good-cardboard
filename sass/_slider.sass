@@ -1,0 +1,36 @@
+.slider
+   position: relative
+   &-arrow
+      font-size: 40px
+      position: absolute
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 22px
+      height: 100%
+      z-index: 2
+      &_reviews
+         font-size: 70px
+         font-weight: 300
+         color: $active-color
+         &:hover
+            color: darken($active-color, 10%)
+      &:hover
+         cursor: pointer
+      &_border
+         border: 1px solid $active-color
+         background-color: $text-color-light
+         color: $active-color
+         &:hover
+            background-color: $active-color
+            color: $text-color-light
+      &_prev
+         top: 0
+         left: 0
+      &_next
+         top: 0
+         right: 0
+   &-content
+      padding-left: 26px
+      padding-right: 26px
+
