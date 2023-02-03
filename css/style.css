@@ -223,7 +223,7 @@ input:focus, button:focus {
   position: relative;
   padding-top: 65px;
   padding-bottom: 60px;
-  background: #373737 url(../img/main/main-bg.jpg) center no-repeat;
+  background: #373737 url(../img/main/main-bg.webp) center no-repeat;
   background-size: cover;
   color: #fff;
   z-index: 2;
@@ -329,7 +329,7 @@ input:focus, button:focus {
   line-height: 71px;
 }
 .overlay .popup-form {
-  background: url(../img/modal/modal-bg.jpg) center no-repeat;
+  background: url(../img/modal/modal-bg.webp) center no-repeat;
   background-size: cover;
   padding: 35px 88px 50px 88px;
   color: #fff;
@@ -565,7 +565,7 @@ input:focus, button:focus {
   padding-top: 64px;
   padding-bottom: 69px;
   color: #fff;
-  background: grey url(../img/offer/offer-bg.jpg) center no-repeat;
+  background: grey url(../img/offer/offer-bg.webp) center no-repeat;
   background-size: cover;
   text-align: center;
 }
