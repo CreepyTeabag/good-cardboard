@@ -1635,10 +1635,10 @@ input:focus, button:focus {
     display: none;
   }
 }
+.footer {
+  background-color: #1b1b1b;
+}
 .footer-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 88px;
   width: 100%;
   font-size: 11px;
@@ -1646,5 +1646,4 @@ input:focus, button:focus {
   line-height: 1.55;
   letter-spacing: normal;
   color: rgba(255, 255, 255, 0.5);
-  background-color: #1b1b1b;
 }/*# sourceMappingURL=style.css.map */
