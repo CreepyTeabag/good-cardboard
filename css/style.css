@@ -621,11 +621,11 @@ input:focus, button:focus {
 
 .contacts {
   position: relative;
+  height: 550px;
+  padding-top: 50px;
 }
 .contacts-block {
   position: absolute;
-  top: 10%;
-  left: 10%;
   background-color: #fff;
   padding-top: 33px;
   padding-left: 62px;
@@ -670,27 +670,24 @@ input:focus, button:focus {
 }
 
 .map {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 550px;
+  z-index: -1;
 }
 
 @media (max-width: 768px) {
   .contacts {
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+    height: auto;
     padding: 0;
     margin: 0;
   }
   .contacts-block {
     position: relative;
+    top: 0;
     left: 0;
-    right: 0;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -737,16 +734,10 @@ input:focus, button:focus {
     margin-bottom: 13px;
   }
   .contacts .map {
-    position: relative;
+    position: static;
     display: flex;
     padding: 15px;
     margin-bottom: 30px;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  .contacts-block {
-    top: 7%;
-    left: 7%;
   }
 }
 .slider {
