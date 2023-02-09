@@ -20,4 +20,26 @@
                min-height: 80%
                max-width: 100%
                max-height: 100%
-   
+
+@media (max-width: 576px)
+   .reviews
+      max-height: 512px
+      &-slider-content__img
+         max-height: 305px
+         img
+            max-height: 290px
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (min-width: 577px) and (max-width: 768px)
+   .reviews
+      max-height: 600px
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 768px)
+   .reviews
+      padding-top: 36px
+      padding-bottom: 40px
+      &-slider-content__img
+         min-width: 160px
+         margin-left: 15px
+      .slider-arrow_reviews
+         max-height: 300px
+         margin: 0
