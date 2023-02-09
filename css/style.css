@@ -674,6 +674,81 @@ input:focus, button:focus {
   height: 550px;
 }
 
+@media (max-width: 768px) {
+  .contacts {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .contacts-block {
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .contacts-block .section-title {
+    display: block;
+    margin-top: 36px;
+    margin-bottom: 19px;
+  }
+  .contacts-block__title {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .contacts-block__title::before {
+    display: none;
+  }
+  .contacts-block__title-warehouse {
+    margin-top: 14px;
+  }
+  .contacts-block__title-sales {
+    margin-top: 32px;
+  }
+  .contacts-block__phone {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contacts-block__text {
+    margin: 0;
+  }
+  .contacts-block__cta {
+    margin-top: 15px;
+    margin-bottom: 21px;
+  }
+  .contacts-block__mail {
+    margin-bottom: 13px;
+  }
+  .contacts .map {
+    position: relative;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .contacts-block {
+    top: 7%;
+    left: 7%;
+  }
+}
 .slider {
   position: relative;
 }
@@ -970,73 +1045,6 @@ input:focus, button:focus {
   .clients .client-block__img-black {
     display: none;
   }
-  .contacts {
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-  }
-  .contacts-block {
-    position: relative;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .contacts-block .section-title {
-    display: block;
-    margin-top: 36px;
-    margin-bottom: 19px;
-  }
-  .contacts-block__title {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-  }
-  .contacts-block__title::before {
-    display: none;
-  }
-  .contacts-block__title-warehouse {
-    margin-top: 14px;
-  }
-  .contacts-block__title-sales {
-    margin-top: 32px;
-  }
-  .contacts-block__phone {
-    display: flex;
-    margin: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .contacts-block__text {
-    margin: 0;
-  }
-  .contacts-block__cta {
-    margin-top: 15px;
-    margin-bottom: 21px;
-  }
-  .contacts-block__mail {
-    margin-bottom: 13px;
-  }
-  .contacts .map {
-    position: relative;
-    display: flex;
-    padding: 15px;
-    margin-bottom: 30px;
-  }
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .anchor {
@@ -1271,73 +1279,6 @@ input:focus, button:focus {
   .clients .client-block__img-black {
     display: none;
   }
-  .contacts {
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-  }
-  .contacts-block {
-    position: relative;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .contacts-block .section-title {
-    display: block;
-    margin-top: 36px;
-    margin-bottom: 19px;
-  }
-  .contacts-block__title {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-  }
-  .contacts-block__title::before {
-    display: none;
-  }
-  .contacts-block__title-warehouse {
-    margin-top: 14px;
-  }
-  .contacts-block__title-sales {
-    margin-top: 32px;
-  }
-  .contacts-block__phone {
-    display: flex;
-    margin: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .contacts-block__text {
-    margin: 0;
-  }
-  .contacts-block__cta {
-    margin-top: 15px;
-    margin-bottom: 21px;
-  }
-  .contacts-block__mail {
-    margin-bottom: 13px;
-  }
-  .contacts .map {
-    position: relative;
-    display: flex;
-    padding: 15px;
-    margin-bottom: 30px;
-  }
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .anchor {
@@ -1543,10 +1484,6 @@ input:focus, button:focus {
     display: inline-block;
     max-width: 160px;
     max-height: 98px;
-  }
-  .contacts-block {
-    top: 7%;
-    left: 7%;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
