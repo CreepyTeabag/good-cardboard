@@ -472,6 +472,57 @@ input:focus, button:focus {
   display: inline-block;
 }
 
+@media (max-width: 576px) {
+  .clients .client-block {
+    width: 143px;
+    height: 87px;
+    margin-bottom: 7px;
+  }
+}
+@media (max-width: 768px) {
+  .clients .client-block__img {
+    display: inline-block;
+    max-width: 120px;
+    max-height: 65px;
+  }
+  .clients .client-block__img-black {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .clients .client-block:hover {
+    cursor: pointer;
+  }
+  .clients .client-block:hover .client-block__img {
+    display: inline-block;
+  }
+  .clients .client-block:hover .client-block__img-black {
+    display: none;
+  }
+  .clients .client-block__img {
+    display: none;
+    max-width: 160px;
+    max-height: 98px;
+  }
+  .clients .client-block__img-black {
+    display: inline-block;
+    max-width: 160px;
+    max-height: 98px;
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .clients .client-block {
+    width: 170px;
+    height: 103px;
+    margin-bottom: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .clients .client-block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .production {
   padding-top: 87px;
   padding-bottom: 90px;
@@ -1013,21 +1064,6 @@ input:focus, button:focus {
     font-size: 13px;
     font-weight: 300;
   }
-  .clients .client-block {
-    width: 143px;
-    height: 87px;
-    margin-bottom: 7px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .clients .client-block__img {
-    display: inline-block;
-    max-width: 120px;
-    max-height: 65px;
-  }
-  .clients .client-block__img-black {
-    display: none;
-  }
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .anchor {
@@ -1217,21 +1253,6 @@ input:focus, button:focus {
     font-size: 13px;
     font-weight: 300;
   }
-  .clients .client-block {
-    width: 170px;
-    height: 103px;
-    margin-bottom: 18px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .clients .client-block__img {
-    display: inline-block;
-    max-width: 120px;
-    max-height: 65px;
-  }
-  .clients .client-block__img-black {
-    display: none;
-  }
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .anchor {
@@ -1400,32 +1421,6 @@ input:focus, button:focus {
     max-width: 290px;
     font-size: 13px;
     font-weight: 300;
-  }
-  .clients .client-block {
-    width: 170px;
-    height: 103px;
-    margin-bottom: 18px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .clients .client-block:hover {
-    cursor: pointer;
-  }
-  .clients .client-block:hover .client-block__img {
-    display: inline-block;
-  }
-  .clients .client-block:hover .client-block__img-black {
-    display: none;
-  }
-  .clients .client-block__img {
-    display: none;
-    max-width: 160px;
-    max-height: 98px;
-  }
-  .clients .client-block__img-black {
-    display: inline-block;
-    max-width: 160px;
-    max-height: 98px;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {

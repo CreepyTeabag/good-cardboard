@@ -26,4 +26,55 @@
          &-black
             display: inline-block
 
-                  
+@media (max-width: 576px)
+   .clients
+      .client
+         &-block
+            width: 143px
+            height: 87px
+            margin-bottom: 7px
+
+@media (max-width: 768px)
+   .clients
+      .client
+         &-block
+            &__img
+               display: inline-block
+               max-width: 120px
+               max-height: 65px
+               &-black
+                  display: none
+
+@media (min-width: 769px) and (max-width: 992px)
+   .clients
+      .client
+         &-block
+            &:hover
+               cursor: pointer   
+               .client-block__img
+                  display: inline-block
+               .client-block__img-black
+                  display: none
+            &__img
+               display: none
+               max-width: 160px
+               max-height: 98px
+               &-black
+                  display: inline-block
+                  max-width: 160px
+                  max-height: 98px
+
+@media (min-width: 577px) and (max-width: 992px)
+   .clients
+      .client
+         &-block
+            width: 170px
+            height: 103px
+            margin-bottom: 18px
+
+@media (max-width: 992px)
+   .clients
+      .client
+         &-block
+            margin-left: auto
+            margin-right: auto
