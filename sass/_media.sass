@@ -142,11 +142,6 @@
          font-weight: 300
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (min-width: 577px) and (max-width: 768px)
-   .anchor
-      display: block
-      position: relative
-      top: -100px
-      visibility: hidden
    #main
       top: -110px
    .hidden-mobile
@@ -280,11 +275,6 @@
          font-weight: 300
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (min-width: 769px) and (max-width: 992px)
-   .anchor
-      display: block
-      position: relative
-      top: -100px
-      visibility: hidden
    #main
       top: -130px
    .menu
@@ -412,11 +402,6 @@
          font-weight: 300
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (min-width: 993px) and (max-width: 1200px)
-   .anchor
-      display: block
-      position: relative
-      top: -100px
-      visibility: hidden
    #main
       top: -90px
    .hidden-fullScreen
@@ -437,11 +422,6 @@
       margin-top: 41px
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (min-width: 1201px)  and (max-width: 1400px)
-   .anchor
-      display: block
-      position: relative
-      top: -100px
-      visibility: hidden
    #main
       top: -90px
    .hidden-fullScreen
@@ -460,12 +440,14 @@
             height: 20px
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (min-width: 1401px)
+   #main
+      top: -90px
+   .hidden-fullScreen
+      display: none
+
+@media (min-width: 576px)
    .anchor
       display: block
       position: relative
       top: -100px
       visibility: hidden
-   #main
-      top: -90px
-   .hidden-fullScreen
-      display: none
