@@ -426,6 +426,34 @@ input:focus, button:focus {
   font-weight: 300;
 }
 
+@media (max-width: 768px) {
+  .features .numbers-block {
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .features-blocks {
+    flex-direction: column;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .features-block {
+    flex-basis: 48%;
+  }
+  .features .numbers-block__title {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 900;
+    color: #fd9c28;
+  }
+  .features .numbers-block__title sup {
+    font-size: 18px;
+  }
+  .features .numbers-block__text {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
 .products {
   padding-top: 57px;
   padding-bottom: 73px;
@@ -1079,14 +1107,6 @@ input:focus, button:focus {
     display: block;
     margin-bottom: 13px;
   }
-  .features .numbers-block {
-    display: block;
-    width: 100%;
-    margin-bottom: 24px;
-  }
-  .features-blocks {
-    flex-direction: column;
-  }
   .form__input {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -1238,14 +1258,6 @@ input:focus, button:focus {
     display: block;
     margin-bottom: 13px;
   }
-  .features .numbers-block {
-    display: block;
-    width: 100%;
-    margin-bottom: 24px;
-  }
-  .features-blocks {
-    flex-direction: column;
-  }
   .form__input {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -1380,22 +1392,6 @@ input:focus, button:focus {
     margin-right: auto;
     display: block;
     margin-bottom: 13px;
-  }
-  .features-block {
-    flex-basis: 48%;
-  }
-  .features .numbers-block__title {
-    margin-bottom: 10px;
-    font-size: 28px;
-    font-weight: 900;
-    color: #fd9c28;
-  }
-  .features .numbers-block__title sup {
-    font-size: 18px;
-  }
-  .features .numbers-block__text {
-    font-size: 16px;
-    font-weight: 300;
   }
   .form__input {
     padding-top: 17px;
