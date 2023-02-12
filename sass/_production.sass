@@ -36,3 +36,35 @@
          font-weight: 300
          line-height: 24px
          text-align: justify
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 768px)
+   .production
+      .production-slider_top
+         display: none
+      &-slider
+         &_bottom
+            img
+               filter: none !important
+               -webkit-filter: none !important            
+      &-text
+         text-align: center
+         &__title
+            padding-left: 0
+            margin-left: 0
+            width: 100%
+         &__descr
+            text-align: center
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (min-width: 577px) and (max-width: 768px)
+   .production
+      &-text
+         margin: 0
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px)
+   .production
+      padding-top: 28px
+      &-slider
+         margin-top: 22px
+         &_bottom
+            margin-top: 22px
+            height: auto
