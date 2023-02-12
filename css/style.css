@@ -691,6 +691,64 @@ input:focus, button:focus {
   margin-bottom: 9px;
 }
 
+@media (max-width: 576px) {
+  .offer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .offer-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .offer-title_small {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 31px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .offer-title {
+    font-size: 26px;
+  }
+  .offer-title_small {
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  #offer {
+    top: -110px;
+  }
+  .offer-form__label {
+    margin-bottom: 22px;
+    font-size: 14px;
+  }
+  .offer-form__input {
+    display: block;
+    margin: auto;
+    margin-bottom: 12px;
+  }
+  .offer-form__button {
+    margin-bottom: 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  #offer {
+    top: -130px;
+  }
+  .offer-title {
+    font-size: 28px;
+  }
+  .offer_small {
+    font-size: 24px;
+  }
+}
+@media (min-width: 993px) {
+  #offer {
+    top: -90px;
+  }
+}
 .contacts {
   position: relative;
   height: 550px;
@@ -868,9 +926,6 @@ input:focus, button:focus {
   #main {
     top: -110px;
   }
-  #offer {
-    top: -110px;
-  }
   .hidden-mobile {
     display: none;
   }
@@ -1028,33 +1083,6 @@ input:focus, button:focus {
   .button {
     padding: 10px 15px;
   }
-  .offer {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .offer-title {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .offer-title_small {
-    display: block;
-    font-size: 16px;
-    font-weight: normal;
-    margin-top: 20px;
-    margin-bottom: 31px;
-  }
-  .offer-form__label {
-    margin-bottom: 22px;
-    font-size: 14px;
-  }
-  .offer-form__input {
-    display: block;
-    margin: auto;
-    margin-bottom: 12px;
-  }
-  .offer-form__button {
-    margin-bottom: 16px;
-  }
   .form__input {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -1073,9 +1101,6 @@ input:focus, button:focus {
     visibility: hidden;
   }
   #main {
-    top: -110px;
-  }
-  #offer {
     top: -110px;
   }
   .hidden-mobile {
@@ -1226,24 +1251,6 @@ input:focus, button:focus {
   .button {
     padding: 10px 15px;
   }
-  .offer-title {
-    font-size: 26px;
-  }
-  .offer-title_small {
-    font-size: 22px;
-  }
-  .offer-form__label {
-    margin-bottom: 22px;
-    font-size: 14px;
-  }
-  .offer-form__input {
-    display: block;
-    margin: auto;
-    margin-bottom: 12px;
-  }
-  .offer-form__button {
-    margin-bottom: 16px;
-  }
   .form__input {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -1262,9 +1269,6 @@ input:focus, button:focus {
     visibility: hidden;
   }
   #main {
-    top: -130px;
-  }
-  #offer {
     top: -130px;
   }
   .menu {
@@ -1407,12 +1411,6 @@ input:focus, button:focus {
   .button {
     padding: 10px 15px;
   }
-  .offer-title {
-    font-size: 28px;
-  }
-  .offer_small {
-    font-size: 24px;
-  }
   .form__input {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -1431,9 +1429,6 @@ input:focus, button:focus {
     visibility: hidden;
   }
   #main {
-    top: -90px;
-  }
-  #offer {
     top: -90px;
   }
   .hidden-fullScreen {
@@ -1467,9 +1462,6 @@ input:focus, button:focus {
   #main {
     top: -90px;
   }
-  #offer {
-    top: -90px;
-  }
   .hidden-fullScreen {
     display: none;
   }
@@ -1496,9 +1488,6 @@ input:focus, button:focus {
     visibility: hidden;
   }
   #main {
-    top: -90px;
-  }
-  #offer {
     top: -90px;
   }
   .hidden-fullScreen {

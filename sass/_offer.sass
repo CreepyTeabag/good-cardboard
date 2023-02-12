@@ -25,3 +25,53 @@
          margin-bottom: 12px
       &__button
          margin-bottom: 9px
+
+@media (max-width: 576px)
+   .offer
+      padding:
+         top: 50px
+         bottom: 50px
+      &-title
+         font-size: 20px
+         font-weight: bold
+         &_small
+            display: block
+            font-size: 16px
+            font-weight: normal
+            margin-top: 20px
+            margin-bottom: 31px
+
+@media (min-width: 577px) and (max-width: 768px)
+   .offer
+      &-title
+         font-size: 26px
+         &_small
+            font-size: 22px
+
+@media (max-width: 768px)
+   #offer
+      top: -110px
+   .offer
+      &-form
+         &__label
+            margin-bottom: 22px
+            font-size: 14px
+         &__input
+            display: block
+            margin: auto
+            margin-bottom: 12px
+         &__button
+            margin-bottom: 16px
+
+@media (min-width: 769px) and (max-width: 992px)
+   #offer
+      top: -130px
+   .offer
+      &-title
+         font-size: 28px
+      &_small
+         font-size: 24px
+
+@media (min-width: 993px)
+   #offer
+      top: -90px
