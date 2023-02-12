@@ -78,6 +78,11 @@ input:focus, button:focus {
   z-index: -1;
 }
 
+@media (max-width: 576px) {
+  .section-title::after {
+    display: none;
+  }
+}
 .menu {
   width: 100%;
   background-color: #373737;
@@ -961,9 +966,6 @@ input:focus, button:focus {
   }
   .menu-link a:active {
     background-color: rgba(255, 255, 255, 0.4);
-  }
-  .section-title::after {
-    display: none;
   }
   .header {
     margin-top: 0;
