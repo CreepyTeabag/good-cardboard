@@ -379,6 +379,72 @@ input:focus, button:focus {
   animation-duration: 1s;
 }
 
+@media (max-width: 768px) {
+  #main {
+    top: -110px;
+  }
+  .main-text__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  #main {
+    top: -130px;
+  }
+  .main-img::before {
+    width: 240px;
+    height: 240px;
+    margin-left: -120px;
+  }
+}
+@media (max-width: 992px) {
+  .main {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .main-text__title {
+    font-size: 22px;
+    color: #fd9c28;
+    margin-bottom: 5px;
+  }
+  .main-text__subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .form {
+    display: block;
+  }
+  .form-title {
+    padding-right: 0;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .form__input {
+    min-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 13px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-align: center;
+    width: 100%;
+    max-width: 290px;
+    font-size: 13px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 993px) {
+  #main {
+    top: -90px;
+  }
+}
 .overlay {
   position: fixed;
   display: none;
@@ -1059,33 +1125,8 @@ input:focus, button:focus {
     top: -73px;
     visibility: hidden;
   }
-  #main {
-    top: -110px;
-  }
   .hidden-mobile {
     display: none;
-  }
-  .main {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
-  }
-  .main-text__title {
-    font-size: 22px;
-    color: #fd9c28;
-    margin-bottom: 5px;
-  }
-  .main-text__subtitle {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  .main-text__form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    padding: 10px;
   }
   .overlay .popup {
     width: 270px;
@@ -1123,57 +1164,10 @@ input:focus, button:focus {
     width: 160px;
     height: 45px;
   }
-  .form {
-    display: block;
-  }
-  .form-title {
-    padding-right: 0;
-    font-size: 15px;
-    line-height: 1.4;
-  }
-  .form__input {
-    min-width: 290px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 13px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    text-align: center;
-    width: 100%;
-    max-width: 290px;
-    font-size: 13px;
-    font-weight: 300;
-  }
 }
 @media (min-width: 577px) and (max-width: 768px) {
-  #main {
-    top: -110px;
-  }
   .hidden-mobile {
     display: none;
-  }
-  .main {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
-  }
-  .main-text__title {
-    font-size: 22px;
-    color: #fd9c28;
-    margin-bottom: 5px;
-  }
-  .main-text__subtitle {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  .main-text__form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    padding: 10px;
   }
   .overlay .popup {
     width: 520px;
@@ -1212,54 +1206,8 @@ input:focus, button:focus {
     width: 160px;
     height: 45px;
   }
-  .form {
-    display: block;
-  }
-  .form-title {
-    padding-right: 0;
-    font-size: 15px;
-    line-height: 1.4;
-  }
-  .form__input {
-    min-width: 290px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 13px;
-  }
-  .form__input {
-    padding-top: 17px;
-    padding-bottom: 17px;
-    text-align: center;
-    width: 100%;
-    max-width: 290px;
-    font-size: 13px;
-    font-weight: 300;
-  }
 }
 @media (min-width: 769px) and (max-width: 992px) {
-  #main {
-    top: -130px;
-  }
-  .main {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
-  }
-  .main-img::before {
-    width: 240px;
-    height: 240px;
-    margin-left: -120px;
-  }
-  .main-text__title {
-    font-size: 22px;
-    color: #fd9c28;
-    margin-bottom: 5px;
-  }
-  .main-text__subtitle {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
   .overlay .popup {
     width: 620px;
     top: 130px;
@@ -1287,51 +1235,18 @@ input:focus, button:focus {
     width: 160px;
     height: 45px;
   }
-  .form {
-    display: block;
-  }
-  .form-title {
-    padding-right: 0;
-    font-size: 15px;
-    line-height: 1.4;
-  }
-  .form__input {
-    min-width: 290px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 13px;
-  }
-  .form__input {
-    padding-top: 17px;
-    padding-bottom: 17px;
-    text-align: center;
-    width: 100%;
-    max-width: 290px;
-    font-size: 13px;
-    font-weight: 300;
-  }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
-  #main {
-    top: -90px;
-  }
   .hidden-fullScreen {
     display: none;
   }
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
-  #main {
-    top: -90px;
-  }
   .hidden-fullScreen {
     display: none;
   }
 }
 @media (min-width: 1401px) {
-  #main {
-    top: -90px;
-  }
   .hidden-fullScreen {
     display: none;
   }
