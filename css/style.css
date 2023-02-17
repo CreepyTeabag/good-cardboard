@@ -243,24 +243,6 @@ input:focus, button:focus {
   padding-right: 15px;
 }
 
-@keyframes move {
-  0% {
-    opacity: 0;
-    margin-bottom: -350px;
-    transform: rotate(90deg);
-  }
-  100% {
-    opacity: 1;
-    margin-bottom: 0;
-    transform: rotate(0);
-  }
-}
-.animate {
-  animation-name: move;
-  animation-delay: 0.4s;
-  animation-duration: 1s;
-}
-
 .main {
   position: relative;
   padding-top: 65px;
@@ -327,6 +309,24 @@ input:focus, button:focus {
 .form-small {
   font-size: 14px;
   font-weight: 300;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    margin-bottom: -350px;
+    transform: rotate(90deg);
+  }
+  100% {
+    opacity: 1;
+    margin-bottom: 0;
+    transform: rotate(0);
+  }
+}
+.animate {
+  animation-name: move;
+  animation-delay: 0.4s;
+  animation-duration: 1s;
 }
 
 .overlay {
@@ -1369,6 +1369,9 @@ input:focus, button:focus {
   }
   .hidden-fullScreen {
     display: none;
+  }
+  .header {
+    margin-top: 41px;
   }
 }
 @media (min-width: 1401px) {
