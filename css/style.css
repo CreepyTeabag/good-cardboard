@@ -218,8 +218,6 @@ input:focus, button:focus {
   background-size: cover;
   color: #fff;
   z-index: 2;
-  /*Оформление главной картинки*/
-  /*Заголовок*/
 }
 .main-img {
   position: relative;
