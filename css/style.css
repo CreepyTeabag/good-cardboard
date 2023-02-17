@@ -538,6 +538,81 @@ input:focus, button:focus {
   text-align: center;
 }
 
+@media (max-width: 576px) {
+  .overlay .popup {
+    width: 270px;
+  }
+}
+@media (max-width: 768px) {
+  .overlay .popup-title {
+    max-height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+  }
+  .overlay .popup-form {
+    padding: 20px;
+  }
+  .overlay .popup-form-header {
+    font-size: 24px;
+  }
+  .overlay .popup-form-header span {
+    font-size: 18px;
+  }
+  .overlay .popup-form-header__phbtn {
+    flex-direction: column;
+    align-items: center;
+  }
+  .overlay .popup-form__label {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .overlay .popup-form__input {
+    width: 230px;
+    height: 45px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .overlay .popup-form__btn {
+    margin-left: 0;
+    width: 160px;
+    height: 45px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .overlay .popup {
+    width: 520px;
+    top: 130px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .overlay .popup {
+    width: 620px;
+    top: 130px;
+  }
+  .overlay .popup-form {
+    padding: 20px;
+  }
+  .overlay .popup-form-header {
+    font-size: 24px;
+  }
+  .overlay .popup-form-header span {
+    font-size: 18px;
+  }
+  .overlay .popup-form-header__phbtn {
+    justify-content: center;
+  }
+  .overlay .popup-form__label {
+    font-size: 16px;
+  }
+  .overlay .popup-form__input {
+    width: 230px;
+    height: 45px;
+  }
+  .overlay .popup-form__btn {
+    width: 160px;
+    height: 45px;
+  }
+}
 .features {
   background-color: #f4f4f4;
   padding-top: 49px;
@@ -1128,112 +1203,10 @@ input:focus, button:focus {
   .hidden-mobile {
     display: none;
   }
-  .overlay .popup {
-    width: 270px;
-  }
-  .overlay .popup-title {
-    max-height: 50px;
-    font-size: 18px;
-    line-height: 50px;
-  }
-  .overlay .popup-form {
-    padding: 20px;
-  }
-  .overlay .popup-form-header {
-    font-size: 24px;
-  }
-  .overlay .popup-form-header span {
-    font-size: 18px;
-  }
-  .overlay .popup-form-header__phbtn {
-    flex-direction: column;
-    align-items: center;
-  }
-  .overlay .popup-form__label {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  .overlay .popup-form__input {
-    width: 230px;
-    height: 45px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
-  .overlay .popup-form__btn {
-    margin-left: 0;
-    width: 160px;
-    height: 45px;
-  }
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .hidden-mobile {
     display: none;
-  }
-  .overlay .popup {
-    width: 520px;
-    top: 130px;
-  }
-  .overlay .popup-title {
-    max-height: 50px;
-    font-size: 18px;
-    line-height: 50px;
-  }
-  .overlay .popup-form {
-    padding: 20px;
-  }
-  .overlay .popup-form-header {
-    font-size: 24px;
-  }
-  .overlay .popup-form-header span {
-    font-size: 18px;
-  }
-  .overlay .popup-form-header__phbtn {
-    flex-direction: column;
-    align-items: center;
-  }
-  .overlay .popup-form__label {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  .overlay .popup-form__input {
-    width: 230px;
-    height: 45px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
-  .overlay .popup-form__btn {
-    margin-left: 0;
-    width: 160px;
-    height: 45px;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  .overlay .popup {
-    width: 620px;
-    top: 130px;
-  }
-  .overlay .popup-form {
-    padding: 20px;
-  }
-  .overlay .popup-form-header {
-    font-size: 24px;
-  }
-  .overlay .popup-form-header span {
-    font-size: 18px;
-  }
-  .overlay .popup-form-header__phbtn {
-    justify-content: center;
-  }
-  .overlay .popup-form__label {
-    font-size: 16px;
-  }
-  .overlay .popup-form__input {
-    width: 230px;
-    height: 45px;
-  }
-  .overlay .popup-form__btn {
-    width: 160px;
-    height: 45px;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
