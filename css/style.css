@@ -1195,43 +1195,30 @@ input:focus, button:focus {
 
 @media (max-width: 576px) {
   .anchor {
-    display: block;
-    position: relative;
     top: -73px;
-    visibility: hidden;
-  }
-  .hidden-mobile {
-    display: none;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  .hidden-mobile {
-    display: none;
-  }
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-  .hidden-fullScreen {
-    display: none;
-  }
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
-  .hidden-fullScreen {
-    display: none;
-  }
-}
-@media (min-width: 1401px) {
-  .hidden-fullScreen {
-    display: none;
   }
 }
 @media (min-width: 576px) {
   .anchor {
-    display: block;
-    position: relative;
     top: -100px;
-    visibility: hidden;
   }
 }
+@media (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+@media (min-width: 993px) {
+  .hidden-fullScreen {
+    display: none;
+  }
+}
+.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
 .footer {
   background-color: #1b1b1b;
 }
