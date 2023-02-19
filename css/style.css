@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   background-color: #fff;
   font-family: "Roboto", sans-serif;
@@ -64,7 +63,6 @@ input:focus, button:focus {
 .dark-bg {
   position: relative;
   z-index: 2;
-  /*Затемнение фонового изображения на главном экране*/
 }
 .dark-bg::before {
   content: "";
@@ -703,6 +701,7 @@ input:focus, button:focus {
   max-height: 397px;
 }
 .products-block__img {
+  height: 271px;
   margin-bottom: 19px;
 }
 .products-block__title {
