@@ -16,29 +16,6 @@ $(document).ready(function(){
   });
 
 
-  //  Это всё - попытка переключать цвет логотипов клиентов при помощи js
-  // В реузльтате всё сделали на CSS, но этот вариант пускай лежит на всякий случай
-  //  $('.client-block').mouseenter(function(){
-  //    $(this).find('.client-block__img').show();
-  //    $(this).find('.client-block__img-black').hide();
-  //  });
-
-  //  $('.client-block').mouseleave(function(){
-  //   $(this).find('.client-block__img-black').show();
-  //   $(this).find('.client-block__img').hide();
-  //  });
-
-
-  //  $('.client-block').hover(
-  //   function(){
-  //     $(this).find('.client-block__img').show();
-  //     $(this).find('.client-block__img-black').hide();
-  //    },
-  //    function(){
-  //     $(this).find('.client-block__img-black').show();
-  //     $(this).find('.client-block__img').hide();
-  //    });
-
 
   // слайдер Производство
   $('.production-slider_top').slick({
@@ -86,7 +63,7 @@ $(document).ready(function(){
     ],
   });
 
-  // ------------------------Гамбургер-меню------------------------
+  // Гамбургер-меню
   var hamMenu_link = $('.hamMenu-link');
   var menu  = $('.menu');
   var nav_link = $('.menu a');
@@ -107,7 +84,7 @@ $(document).ready(function(){
     hamMenu_link.toggleClass('hamMenu-link_active');
     menu.toggleClass('menu_active');
   });
-  // ------------------------Гамбургер-меню------------------------
+
 
   //Маска для номера телефона
   $(document).ready(function(){
