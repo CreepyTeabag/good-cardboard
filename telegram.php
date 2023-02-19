@@ -4,7 +4,7 @@
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
 
-$phone = $_GET['user_phone'];
+$phone = $_POST['user_phone'];
 $token = "5975655516:AAEyvLR7FUZGxNIf8pYSI7_12CfhXSu_xkA";
 $chat_id = "-881351540";
 $arr = array(
