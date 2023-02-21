@@ -22,9 +22,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
 
   </head>
-
   <body>
-    
     <div class="menu fixed-top">
       <div class="container">
         <div class="menu-wrap">
@@ -70,9 +68,7 @@
             </a>
           </div>
           <div class="col-3 col-md-3 col-lg-4">
-            <div class="header-logo">
-              <!-- <img src="img/header-logo.png" alt="Добрый картон"> -->
-            </div>
+            <div class="header-logo"></div>
             <!-- /.header__logo -->
           </div>
           <!-- /.col-4 -->
@@ -114,9 +110,9 @@
           <!-- /.col-5 -->
           <div class="col-12 col-md-7">
             <div class="main-text">
-              <div class="h1 main-text__title">
+              <h1 class="main-text__title">
                 Производство упаковки из гофрокартона
-              </div>
+              </h1>
               <!-- /.h1 main-text__title -->
               <div class="main-text__subtitle">
                 с доставкой по всей России
@@ -134,7 +130,7 @@
                 <!-- /.form-title -->
 
                 <!-- Форма, которая отправляет телефон через бота в телеграме -->
-                <form action="telegram.php" method="POST" class="form phone-form">
+                <form class="form phone-form">
                   <input class="form__input" type="tel" id="main-phone-form" name="user_phone" placeholder="Введите номер телефона">
                   <button class="button button_big" type="submit" id="return-call_button">
                     Оставить заявку!
@@ -155,91 +151,10 @@
     </div>
     <!-- /.main -->
 
-    <div class="overlay overlay-offer">
-      <div class="popup">
-        <div class="popup-title">Форма обратной связи</div>
-        <!-- /.popup-title -->
-        <div class="popup-close">&times;</div>
-        <!-- /.popup-close -->
-        <div class="popup-form">
-          <form  class="main-form phone-form">
-            <div class="popup-form-header">
-              Получите индивидуальное предложение <br>
-              <span>на производство и поставку изделий</span>
-              <label for="popup-phone" class="popup-form__label">
-                Введите ваш номер телефона:
-              </label>
-              <div class="popup-form-header__phbtn">
-                <input type="tel" class="popup-form__input"  id="popup-phone"
-                name="user_phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
-                <button class="button popup-form__btn">
-                Оставить заявку!
-                </button>
-              </div>
-              <!-- /.popup-form-header__phbtn -->
-              <div class="popup-form__note">
-                *Минимальный заказ 500шт
-              </div>
-              <!-- /.popup-form__note -->
-            </div>
-            <!-- /.popup-form-header -->
-          </form>
-        </div>
-        <!-- /.popup-form -->
-      </div>
-      <!-- /.popup -->
-    </div>
-    <!-- /.overlay -->
-
-
-    <!-- Попап на успешное получение номера-->
-    <div class="overlay overlay-thankyou">
-      <div class="popup">
-          <div class="popup-title">Спасибо за заявку!</div>
-          <!-- /.popup-title -->
-          <div class="popup-close">&times;</div>
-          <!-- /.popup-close -->
-          <div class="popup-form">
-            <form action="#" class="main-form">
-                <div class="popup-form-header">
-                Мы вам вот-вот перезвоним:)
-                </div>
-            <!-- /.popup-form-header -->
-            </form>
-          </div>
-          <!-- /.popup-form -->
-      </div>
-      <!-- /.popup -->
-    </div>
-    <!-- /.overlay overlay-thankyou-->
-
-    <!--  Попап на невозможность получить номер  -->
-    <div class="overlay overlay-oops">
-      <div class="popup">
-          <div class="popup-title">Ой, что-то сломалось</div>
-          <!-- /.popup-title -->
-          <div class="popup-close">&times;</div>
-          <!-- /.popup-close -->
-          <div class="popup-form">
-            <form action="#" class="main-form">
-                <div class="popup-form-header">
-                Что-то сломалось и мы не получили ваш номер. Попробуйте ещё раз через несколько минут
-                </div>
-            <!-- /.popup-form-header -->
-            </form>
-          </div>
-          <!-- /.popup-form -->
-      </div>
-      <!-- /.popup -->
-    </div>
-    <!-- /.overlay overlay-oops-->
-
-
     <div class="features">
       <div class="anchor" id="features"></div>
       <div class="container">
         <div class="numbers">
-
           <div class="numbers-block animate__animated wow animate__fadeInRight" data-wow-delay="0.1s">
             <div class="numbers-block__title">5 лет</div>
             <!-- /.numbers-block__title -->
@@ -249,7 +164,6 @@
             <!-- /.numbers-block__text -->
           </div>
           <!-- /.numbers-block -->
-
           <div class="numbers-block animate__animated wow animate__fadeInRight" data-wow-delay="0.3s">
             <div class="numbers-block__title">до 5 000 000 м<sup>2</sup></div>
             <!-- /.numbers-block__title -->
@@ -259,7 +173,6 @@
             <!-- /.numbers-block__text -->
           </div>
           <!-- /.numbers-block -->
-
           <div class="numbers-block animate__animated wow animate__fadeInRight" data-wow-delay="0.5s">
             <div class="numbers-block__title">4 000 м<sup>2</sup></div>
             <!-- /.numbers-block__title -->
@@ -271,8 +184,6 @@
           <!-- /.numbers-block -->
         </div>
         <!-- /.numbers -->
-
-
         <div class="features-blocks row justify-content-between">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="features-block animate__animated wow animate__fadeInUp" data-wow-delay="0.1s">
@@ -285,17 +196,15 @@
                   Производство
                 </div>
                 <!-- /.features-block__title -->
-                <div class="features-block__descr">
+                <div class="features-block__description">
                   4 технологические линии способны выполнить любой заказ любой сложности
                 </div>
-                <!-- /.features-block__descr -->
+                <!-- /.features-block__description -->
               </div>
               <!-- /.features-block__text -->
             </div>
             <!-- /.features-block -->
           </div>
-          
-
           <div class="col-12 col-md-6 col-lg-4">
             <div class="features-block animate__animated wow animate__fadeInUp" data-wow-delay="0.2s">
               <div class="features-block__img">
@@ -307,17 +216,15 @@
                   Бесплатные образцы
                 </div>
                 <!-- /.features-block__title -->
-                <div class="features-block__descr">
+                <div class="features-block__description">
                   Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть упаковку
                 </div>
-                <!-- /.features-block__descr -->
+                <!-- /.features-block__description -->
               </div>
               <!-- /.features-block__text -->
             </div>
             <!-- /.features-block -->
           </div>
-            
-  
           <div class="col-12 col-md-6 col-lg-4">
             <div class="features-block animate__animated wow animate__fadeInUp" data-wow-delay="0.3s">
               <div class="features-block__img">
@@ -329,17 +236,15 @@
                   Стабильное качество
                 </div>
                 <!-- /.features-block__title -->
-                <div class="features-block__descr">
+                <div class="features-block__description">
                   Собственная лаборатория контролирует качество на каждом этапе производства
                 </div>
-                <!-- /.features-block__descr -->
+                <!-- /.features-block__description -->
               </div>
               <!-- /.features-block__text -->
             </div>
             <!-- /.features-block -->
           </div>
-          
-
           <div class="col-12 col-md-6 col-lg-4">
             <div class="features-block animate__animated wow animate__fadeInUp" data-wow-delay="0.4s">
               <div class="features-block__img">
@@ -351,17 +256,15 @@
                   Страховой запас
                 </div>
                 <!-- /.features-block__title -->
-                <div class="features-block__descr">
+                <div class="features-block__description">
                   Можем хранить запас гофропродукции на своих складах и поставлять его партиями
                 </div>
-                <!-- /.features-block__descr -->
+                <!-- /.features-block__description -->
               </div>
               <!-- /.features-block__text -->
             </div>
             <!-- /.features-block -->
           </div>
-          
-
           <div class="col-12 col-md-6 col-lg-4">
             <div class="features-block animate__animated wow animate__fadeInUp" data-wow-delay="0.5s">
               <div class="features-block__img">
@@ -373,17 +276,15 @@
                   Флексопечать
                 </div>
                 <!-- /.features-block__title -->
-                <div class="features-block__descr">
+                <div class="features-block__description">
                   Возможно нанесение вашего  логотипа, текста или манипуляционных знаков
                 </div>
-                <!-- /.features-block__descr -->
+                <!-- /.features-block__description -->
               </div>
               <!-- /.features-block__text -->
             </div>
             <!-- /.features-block -->
           </div>
-          
-
           <div class="col-12 col-md-6 col-lg-4">
             <div class="features-block animate__animated wow animate__fadeInUp" data-wow-delay="0.6s">
               <div class="features-block__img">
@@ -395,16 +296,15 @@
                   Гидрофобные добавки
                 </div>
                 <!-- /.features-block__title -->
-                <div class="features-block__descr">
+                <div class="features-block__description">
                   На производстве реализована технология, которая позволяет гофрокартону стать прочнее
                 </div>
-                <!-- /.features-block__descr -->
+                <!-- /.features-block__description -->
               </div>
               <!-- /.features-block__text -->
             </div>
             <!-- /.features-block -->
           </div>
-            
         </div>
         <!-- /.features-blocks -->
       </div>
@@ -417,11 +317,10 @@
       <div class="container">
         <h2 class="section-title animate__animated wow animate__fadeInUp">Наша продукция</h2>
         <!-- /.section-title -->
-
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="products-block">
-              <img class="products-block__img" src="img/products/box-1.webp" alt="#" >
+              <img class="products-block__img" src="img/products/box-1.webp" alt="#">
               <div class="products-block__title">
                 Гофрокороб 4-х клапанный
               </div>
@@ -441,13 +340,11 @@
             <!-- /.products-block -->
           </div>
           <!-- /.col-6 -->
-
           <div class="col-12 col-md-6">
             <div class="products-block">
-              <img class="products-block__img" src="img/products/box-2.webp" alt="#" >
+              <img class="products-block__img" src="img/products/box-2.webp" alt="#">
               <div class="products-block__title">
                 Гофролоток
-
               </div>
               <!-- /.products-block__title -->
               <div class="products-block__buttons">
@@ -467,11 +364,10 @@
           <!-- /.col-6 -->
         </div>
         <!-- /.row -->
-
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="products-block">
-              <img class="products-block__img" src="img/products/box-3.webp" alt="#" >
+              <img class="products-block__img" src="img/products/box-3.webp" alt="#">
               <div class="products-block__title">
                 Гофрокороб самосборный (сложная высечка)
               </div>
@@ -491,10 +387,9 @@
             <!-- /.products-block -->
           </div>
           <!-- /.col-6 -->
-
           <div class="col-12 col-md-6">
             <div class="products-block">
-              <img class="products-block__img" src="img/products/box-4.webp" alt="#" >
+              <img class="products-block__img" src="img/products/box-4.webp" alt="#">
               <div class="products-block__title">
                 Листовой гофрокартон
               </div>
@@ -530,7 +425,7 @@
         </h2>
         <!-- /.offer-title -->
         <div class="offer-form">
-          <form action="#" class="phone-form">
+          <form class="phone-form">
             <label class="offer-form__label" for="offer-form-phone">Введите ваш номер телефона:</label>
             <input class="form__input offer-form__input" id="offer-form-phone" name="user_phone" type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
             <button class="button offer-form__button" type="submit">Оставить заявку!</button>
@@ -556,11 +451,9 @@
               <img src="img/production/photo-2.webp" alt="">
               <img src="img/production/photo-1.webp" alt="">
             </div>
-
             <div class="production-slider production-slider_bottom slider">
               <div class="slider-arrow slider-arrow_prev slider-arrow_border">&#8249;</div>
               <!-- /.slider-arrow slider-arrow_prev -->
-
               <div class="slider-content">
                 <img src="img/production/photo-2.webp" alt="">
                 <img src="img/production/photo-1.webp" alt="">
@@ -570,7 +463,6 @@
                 <img src="img/production/photo-1.webp" alt="">
               </div>
               <!-- /.production-slider-->
-
               <div class="slider-arrow slider-arrow_next slider-arrow_border">&#8250;</div>
               <!-- /.slider-arrow slider-arrow_next -->
             </div>
@@ -583,12 +475,12 @@
                 Производство
               </div>
               <!-- /.production-text__title -->
-              <div class="production-text__descr">
+              <div class="production-text__description">
                 Современное оборудование позволяет производить до 5 миллионов квадратных метров гофрокартона ежемесячно. Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.
                 Досконально прорабатываем конструкции коробов и составы сырья, учитывая условия хранения, транспортировки и производства вашей продукции.
                 Возможно нанесение цветной флексопечати на поверхность коробов.
               </div>
-              <!-- /.production-text__descr -->
+              <!-- /.production-text__description -->
             </div>
           </div>
           <!-- /.col-5 -->
@@ -724,7 +616,6 @@
             <div class="reviews-slider slider">
               <div class="slider-arrow slider-arrow_prev slider-arrow_reviews slider-arrow_reviews_prev">&#8249;</div>
               <!-- /.slider-arrow slider-arrow_prev  slider-arrow_reviews slider-arrow_reviews_prev -->
-
               <div class="slider-content reviews-slider-content">
                 <div class="reviews-slider-content__img">
                   <img src="img/reviews/review-1.webp" alt="review-1">
@@ -761,7 +652,6 @@
 
     <section class="contacts">
       <div class="anchor" id="contacts"></div>
-      
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-12">
@@ -775,7 +665,6 @@
                   г. Уфа, ул. Майкопская, 65/2
               </div>
               <!-- /.contacts-block__address -->
-      
               <div class="contacts-block__phone contacts-block__text">
                 <span class="contacts-block__title contacts-block__title-sales">Тел. отдела продаж:</span>
                   8 (347) 271-54-28<br>
@@ -786,7 +675,6 @@
                 <button class="button button-modal-offer">Заказать звонок</button>
               </div>
               <!-- /.contacts-block__cta -->
-      
               <div class="contacts-block__mail contacts-block__text">
                 <span class="contacts-block__title contacts-block__title-email">E-mail</span>
                   urals.karton@gmail.com
@@ -800,8 +688,6 @@
         <!-- /.row -->
       </div>
       <!-- /.container -->
-      
-
       <div id="map" class="map">
         <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4fdfd7681f16b325ae1e517b78982c9ae3d4c8bba18b6bcb2800462b48413676&amp;width=100%25&amp;height=550&amp;lang=ru_RU&amp;scroll=false"></script>
       </div>
@@ -816,12 +702,86 @@
         </div>
       </div>
       <!-- /.container -->
-
     </div>
     <!-- /.footer -->
 
-    
+    <div class="overlay overlay-offer">
+      <div class="popup">
+        <div class="popup-title">Форма обратной связи</div>
+        <!-- /.popup-title -->
+        <div class="popup-close">&times;</div>
+        <!-- /.popup-close -->
+        <div class="popup-form">
+          <form class="main-form phone-form">
+            <div class="popup-form-header">
+              Получите индивидуальное предложение <br>
+              <span>на производство и поставку изделий</span>
+              <label for="popup-phone" class="popup-form__label">
+                Введите ваш номер телефона:
+              </label>
+              <div class="popup-form-header__phoneButton">
+                <input type="tel" class="popup-form__input"  id="popup-phone"
+                name="user_phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
+                <button class="button popup-form__btn">
+                Оставить заявку!
+                </button>
+              </div>
+              <!-- /.popup-form-header__phoneButton -->
+              <div class="popup-form__note">
+                *Минимальный заказ 500шт
+              </div>
+              <!-- /.popup-form__note -->
+            </div>
+            <!-- /.popup-form-header -->
+          </form>
+        </div>
+        <!-- /.popup-form -->
+      </div>
+      <!-- /.popup -->
+    </div>
+    <!-- /.overlay -->
 
+    <!-- Попап на успешное получение номера-->
+    <div class="overlay overlay-thankyou">
+      <div class="popup">
+          <div class="popup-title">Спасибо за заявку!</div>
+          <!-- /.popup-title -->
+          <div class="popup-close">&times;</div>
+          <!-- /.popup-close -->
+          <div class="popup-form">
+            <form action="#" class="main-form">
+                <div class="popup-form-header">
+                Мы вам вот-вот перезвоним:)
+                </div>
+            <!-- /.popup-form-header -->
+            </form>
+          </div>
+          <!-- /.popup-form -->
+      </div>
+      <!-- /.popup -->
+    </div>
+    <!-- /.overlay overlay-thankyou-->
+
+    <!--  Попап на невозможность получить номер  -->
+    <div class="overlay overlay-oops">
+      <div class="popup">
+          <div class="popup-title">Ой, что-то сломалось</div>
+          <!-- /.popup-title -->
+          <div class="popup-close">&times;</div>
+          <!-- /.popup-close -->
+          <div class="popup-form">
+            <form action="#" class="main-form">
+                <div class="popup-form-header">
+                Что-то сломалось и мы не получили ваш номер. Попробуйте ещё раз через несколько минут
+                </div>
+            <!-- /.popup-form-header -->
+            </form>
+          </div>
+          <!-- /.popup-form -->
+      </div>
+      <!-- /.popup -->
+    </div>
+    <!-- /.overlay overlay-oops-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script  src="https://code.jquery.com/jquery-3.6.1.js" crossorigin="anonymous"></script>
@@ -831,7 +791,6 @@
 
     <!-- Подключаем wow анимацию -->
     <script src="js/wow.min.js"></script>
-
 
     <!-- Slick нужен для слайдеров -->
     <script src="slick/slick.min.js"></script>

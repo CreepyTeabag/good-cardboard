@@ -458,7 +458,7 @@ input:focus, button:focus {
   top: 100px;
   transform: translateX(-50%);
   width: 752px;
-  border: #dfdfdf solid 2px;
+  border: 2px solid #dfdfdf;
 }
 .overlay .popup-close {
   position: absolute;
@@ -498,7 +498,7 @@ input:focus, button:focus {
 .overlay .popup-form-header span {
   font-size: 24px;
 }
-.overlay .popup-form-header__phbtn {
+.overlay .popup-form-header__phoneButton {
   display: flex;
   align-items: flex-end;
 }
@@ -556,7 +556,7 @@ input:focus, button:focus {
   .overlay .popup-form-header span {
     font-size: 18px;
   }
-  .overlay .popup-form-header__phbtn {
+  .overlay .popup-form-header__phoneButton {
     flex-direction: column;
     align-items: center;
   }
@@ -596,7 +596,7 @@ input:focus, button:focus {
   .overlay .popup-form-header span {
     font-size: 18px;
   }
-  .overlay .popup-form-header__phbtn {
+  .overlay .popup-form-header__phoneButton {
     justify-content: center;
   }
   .overlay .popup-form__label {
@@ -636,7 +636,7 @@ input:focus, button:focus {
   font-weight: 700;
   margin-bottom: 5px;
 }
-.features-block__descr {
+.features-block__description {
   font-size: 14px;
   font-weight: 400;
 }
@@ -664,13 +664,13 @@ input:focus, button:focus {
 }
 
 @media (max-width: 768px) {
+  .features-blocks {
+    flex-direction: column;
+  }
   .features .numbers-block {
     display: block;
     width: 100%;
     margin-bottom: 24px;
-  }
-  .features-blocks {
-    flex-direction: column;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -835,7 +835,7 @@ input:focus, button:focus {
   font-size: 28px;
   font-weight: 300;
 }
-.production-text__descr {
+.production-text__description {
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
@@ -858,7 +858,7 @@ input:focus, button:focus {
     margin-left: 0;
     width: 100%;
   }
-  .production-text__descr {
+  .production-text__description {
     text-align: center;
   }
 }
@@ -937,7 +937,7 @@ input:focus, button:focus {
 }
 .offer {
   padding-top: 64px;
-  padding-bottom: 69px;
+  pdding-bottom: 69px;
   color: #fff;
   background: grey url(../img/offer/offer-bg.webp) center no-repeat;
   background-size: cover;
@@ -1074,8 +1074,7 @@ input:focus, button:focus {
 .contacts .section-title {
   display: none;
 }
-
-.map {
+.contacts .map {
   position: absolute;
   top: 0;
   left: 0;
@@ -1159,6 +1158,9 @@ input:focus, button:focus {
   height: 100%;
   z-index: 2;
 }
+.slider-arrow:hover {
+  cursor: pointer;
+}
 .slider-arrow_reviews {
   font-size: 70px;
   font-weight: 300;
@@ -1166,9 +1168,6 @@ input:focus, button:focus {
 }
 .slider-arrow_reviews:hover {
   color: #f08402;
-}
-.slider-arrow:hover {
-  cursor: pointer;
 }
 .slider-arrow_border {
   border: 1px solid #fd9c28;
@@ -1192,6 +1191,12 @@ input:focus, button:focus {
   padding-right: 26px;
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
 @media (max-width: 576px) {
   .anchor {
     top: -73px;
@@ -1212,12 +1217,6 @@ input:focus, button:focus {
     display: none;
   }
 }
-.anchor {
-  display: block;
-  position: relative;
-  visibility: hidden;
-}
-
 .footer {
   background-color: #1b1b1b;
 }

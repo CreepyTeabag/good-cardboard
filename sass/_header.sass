@@ -11,10 +11,10 @@
       justify-content: flex-end
       align-items: center
       &__phone
-         &s
-            display: flex
          font-size: 22px
          margin-right: 13px
+         &s
+            display: flex
          &:first-child
             border-right: 1px solid #cfcfd0
             padding-right: 15px
@@ -42,12 +42,12 @@
       box-shadow: 0 0 3px 0 $text-color-dark
       &-contacts
          &__phone
+            margin-right: 0
+            border: none
             span
                font-weight: bold
             &s
                flex-direction: column
-            margin-right: 0
-            border: none
             &:first-child
                border: none
          &__button
@@ -55,10 +55,8 @@
             padding: 7px
             
 @media (min-width: 577px) and (max-width: 992px)
-   .header
-      &-contacts
-         &__phone
-            font-size: 16px
+   .header-contacts__phone
+      font-size: 16px
 
 @media (min-width: 993px) and (max-width: 1400px)
    .header
